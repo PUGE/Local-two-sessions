@@ -1,0 +1,309 @@
+<template lang="pug">
+.home
+  img.main-image(src="@|bg.jpg|")
+  //- 顶部导航栏
+  .title-bar
+    ul.clear
+      li
+        a(href="#") 要问区
+      li
+        a(href="#") 滚动新闻
+      li
+        a(href="#") 视频报道
+      li
+        a(href="#") 报道解读
+      li
+        a(href="#") 报道焦点
+      li
+        a(href="#") 人物报道
+      li
+        a(href="#") 议案提案
+      li
+        a(href="#") 精彩图片
+
+  .w1000
+    //- 主标题
+    .main-title
+      a(href="#") 黑龙江省第二十届人民代表大会1月31日第五次选举落幕
+    //- 主新闻条
+    .main-box.clear
+      plug(_name="swiperBox" class="left" _src="https://owo.ink/public/9be49efe789907110ae4a89550a9f909.page")
+      ul.right
+        li
+          a(href="#")
+            h2 解读2020政府工作报告释放哪些信号
+            p 解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读201
+        li
+          a(href="#")
+            h2 解读2020政府工作报告释放哪些信号
+            p 解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读201
+        li
+          a(href="#")
+            h2 解读2020政府工作报告释放哪些信号
+            p 解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读201
+    //- 议程
+    .agenda-box
+      .agenda.fl
+        span 人大议程
+        img(src="@|icon-1.png|")
+      .agenda.fl
+        p 会议日期<br>2020.2.10~2.15
+        img(src="@|icon-2.png|")
+      .agenda.fr
+        p 会议日期<br>2020.2.10~2.15
+        img(src="@|icon-4.png|")
+      .agenda.fr
+        span 政协议程
+        img(src="@|icon-3.png|")
+    //- 日历
+    .calendar-box
+    //- 滚动新闻
+    .rolling-news
+    //- 标题栏
+    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
+    //- 视频列表
+    .video-box.clear
+      .left.fl
+      .center.fl
+      .right.fl
+        ul
+          li
+            img(src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130948274118019863880.jpg")
+            .info 解读2016政府工作报告释放哪些“十三五”发展信号
+          li
+            img(src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855248094482452988.jpg")
+            .info 解读2016政府工作报告释放哪些“十三五”发展信号
+          li
+            img(src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855244937535482982.jpg")
+            .info 解读2016政府工作报告释放哪些“十三五”发展信号
+        .control-bar.clear
+          .fl.down
+          .fl.up
+    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
+    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
+    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-image {
+  width: 100%;
+}
+.title-bar {
+  background-image: url('@|title-bar.png|');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 77px;
+  background-position: center;
+  transform: translate3d(0, 0, 0);
+  margin-top: -38px;
+  ul {
+    width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    position: relative;
+  }
+  li {
+    display: inline-block;
+    line-height: 60px;
+    font-size: 22px;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  li:hover {
+    font-weight: bold;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.main-title {
+  font-size: 36px;
+  height: 100px;
+  line-height: 100px;
+  color: #bc1b21;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  a {
+    color: #bc1b21;
+  }
+}
+.main-box {
+  .left {
+    width: 490px;
+    height: 330px;
+    float: left;
+    margin-top: 21px;
+    margin-right: 30px;
+  }
+  .right {
+    width: 480px;
+    height: 330px;
+    float: left;
+    li {
+      border-bottom: 2px dotted #a4a4a4;
+      height: 85px;
+      padding: 15px 0;
+      overflow: hidden;
+      color: #222;
+      h2 {
+        font-size: 22px;
+        line-height: 35px;
+        margin-bottom: 3px;
+        font-family: "Microsoft YaHei";
+      }
+      p {
+        font-size: 14px;
+        line-height: 23px;
+      }
+    }
+  }
+}
+.agenda-box {
+  height: 66px;
+  width: 1000px;
+  border-bottom: 2px dotted #a4a4a4;
+  padding: 25px 0;
+}
+.agenda-box {
+  .agenda {
+    height: 66px;
+    width: 200px;
+    color: #222;
+    padding: 0 10px;
+    border: 1px solid #404040;
+    font-weight: bold;
+    position: relative;
+    background-color: #efefef;
+    border-right: none;
+    span {
+      font-size: 22px;
+      line-height: 66px;
+    }
+    p {
+      line-height: 20px;
+      font-size: 14px;
+      margin: 13px 0;
+    }
+    img {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  .fl:nth-child(2) { 
+    border-right: 1px solid #404040;
+  }
+  .fr:nth-child(3) {
+    border-right: 1px solid #404040;
+  }
+}
+
+.calendar-box {
+  width: 1000px;
+  height: 166px;
+  margin-top: 25px;
+  background-image: url('@|calendar.png|');
+}
+
+.rolling-news {
+  width: 1000px;
+  height: 148px;
+  margin-top: 25px;
+  background-image: url('@|rolling-news.jpg|');
+}
+.plate-title-bar {
+  margin: 30px 0;
+}
+.video-box {
+  height: 406px;
+  width: 100%;
+  .left {
+    width: 721px;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911131050544300484849198.jpg');
+  }
+  .center {
+    width: 70px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+    background-image: url('@|point.png|');
+  }
+  .right {
+    width: 244px;
+    height: 100%;
+    ul {
+      height: 375px;
+    }
+    li {
+      width: 100%;
+      height: 33.33%;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .info {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 20px;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        background-color: #064cc0;
+        color: white;
+        line-height: 26px;
+        vertical-align: middle;
+        padding: 0px;
+        display: none;
+      }
+      
+    }
+    li:hover .info {
+      display: flex;
+    }
+    .control-bar {
+      height: 30px;
+      background-color: #cd3a44;
+      .fl {
+        width: 50%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+      }
+      .down {
+        border-right: 1px solid #ccc;
+        width: 121px;
+        background-image: url('@|down.png|');
+      }
+      .up {
+        background-image: url('@|up.png|');
+      }
+    }
+  }
+}
+</style>

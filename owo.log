@@ -1,0 +1,1608 @@
+[2019-11-13T17:05:57.335] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:05:57.338] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:05:57.338] [INFO] default - 首次启动!
+[2019-11-13T17:05:57.338] [INFO] default - 生成版本号: djm03qi3l1b
+[2019-11-13T17:05:57.347] [INFO] default - 清理资源文件夹: D:\work\地方两会\dist\static
+[2019-11-13T17:05:57.347] [INFO] default - 文件夹不存在: D:\work\地方两会\dist\static
+[2019-11-13T17:05:57.348] [INFO] default - 创建文件夹: D:\work\地方两会\dist\static
+[2019-11-13T17:05:57.348] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:05:57.348] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:05:57.348] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:05:57.349] [INFO] default - 开始处理模块: home
+[2019-11-13T17:05:57.891] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:05:57.891] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:05:57.909] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:05:57.960] [DEBUG] default - 模块swiperBox处理用时: 70 毫秒!
+[2019-11-13T17:05:57.962] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:05:57.969] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:05:57.971] [DEBUG] default - 模块plateTitleBar处理用时: 10 毫秒!
+[2019-11-13T17:05:57.972] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:05:57.972] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:05:57.972] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:05:57.973] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:05:57.974] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:05:57.974] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:05:57.974] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:05:57.975] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:05:57.975] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:05:57.975] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:05:57.975] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:05:57.976] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:05:57.977] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:05:57.988] [DEBUG] default - 页面home处理用时: 639 毫秒!
+[2019-11-13T17:05:57.990] [INFO] default - 文件夹不存在: D:/work/地方两会/dist/static/resource
+[2019-11-13T17:05:57.990] [INFO] default - 创建文件夹: D:/work/地方两会/dist/static/resource
+[2019-11-13T17:05:57.991] [DEBUG] default - 处理资源:  [ 'D:/work/地方两会/src/resource/title.png',
+  'D:/work/地方两会/src/resource/title-bar.png',
+  'D:/work/地方两会/src/resource/calendar.png',
+  'D:/work/地方两会/src/resource/rolling-news.jpg' ]
+[2019-11-13T17:05:57.992] [DEBUG] default - 资源目录:  D:/work/地方两会/dist/static/resource
+[2019-11-13T17:05:57.994] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:05:58.668] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:05:58.711] [INFO] default - 文件夹不存在: D:\work\地方两会\dist\static\css
+[2019-11-13T17:05:58.711] [INFO] default - 创建文件夹: D:\work\地方两会\dist\static\css
+[2019-11-13T17:05:58.711] [INFO] default - 开始处理附属css中的资源
+[2019-11-13T17:05:58.712] [INFO] default - 附属css中的资源处理完毕!
+[2019-11-13T17:05:58.712] [INFO] default - 处理字体: {}
+[2019-11-13T17:05:58.851] [INFO] default - 使用postcss处理完毕! 用时: 183 毫秒
+[2019-11-13T17:05:58.852] [INFO] default - 正在处理script!
+[2019-11-13T17:05:58.853] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:05:59.535] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:05:59.536] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:05:59.536] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:05:59.536] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:05:59.536] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:05:59.536] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:05:59.537] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:05:59.537] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:05:59.537] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:05:59.537] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:05:59.537] [DEBUG] default - 输出scriptData
+[2019-11-13T17:05:59.537] [DEBUG] default - 准备输出html!
+[2019-11-13T17:05:59.538] [DEBUG] default - 处理资源:  [ 'D:/work/地方两会/src/resource/bg.jpg',
+  'D:/work/地方两会/src/resource/swiper-previou.png',
+  'D:/work/地方两会/src/resource/swiper-next.png',
+  'D:/work/地方两会/src/resource/icon-1.png',
+  'D:/work/地方两会/src/resource/icon-2.png',
+  'D:/work/地方两会/src/resource/icon-4.png',
+  'D:/work/地方两会/src/resource/icon-3.png' ]
+[2019-11-13T17:05:59.538] [DEBUG] default - 资源目录:  D:/work/地方两会/dist/static/resource
+[2019-11-13T17:05:59.539] [INFO] default - 文件夹不存在: D:\work\地方两会\dist\static\js
+[2019-11-13T17:05:59.539] [INFO] default - 创建文件夹: D:\work\地方两会\dist\static\js
+[2019-11-13T17:05:59.541] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:05:59.541] [INFO] default - 编译结束!
+[2019-11-13T17:05:59.542] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:05:59.558] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:05:59.559] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:05:59.559] [INFO] default - 读取成功: D:\work\地方两会\src\main.css
+[2019-11-13T17:05:59.559] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:05:59.596] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:05:59.597] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\main.css
+[2019-11-13T17:06:56.393] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:06:56.393] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:06:56.393] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:06:56.393] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:06:56.393] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:06:56.393] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:06:56.394] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:06:56.394] [INFO] default - 开始处理模块: home
+[2019-11-13T17:06:56.433] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:06:56.433] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:06:56.448] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:06:56.457] [DEBUG] default - 模块swiperBox处理用时: 24 毫秒!
+[2019-11-13T17:06:56.458] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:06:56.463] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:06:56.464] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:06:56.465] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:06:56.465] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:06:56.465] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:06:56.466] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:06:56.466] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:06:56.466] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:06:56.466] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:06:56.467] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:06:56.467] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:06:56.467] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:06:56.467] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:06:56.468] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:06:56.469] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:06:56.480] [DEBUG] default - 页面home处理用时: 86 毫秒!
+[2019-11-13T17:06:56.481] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:06:56.481] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:06:56.481] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:06:56.481] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:06:56.481] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:06:56.481] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:06:56.486] [INFO] default - 处理字体: {}
+[2019-11-13T17:06:56.487] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-11-13T17:06:56.488] [INFO] default - 正在处理script!
+[2019-11-13T17:06:56.489] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:06:56.537] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:06:56.537] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:06:56.537] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:06:56.537] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:06:56.537] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:06:56.537] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:06:56.537] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:06:56.537] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:06:56.537] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:06:56.537] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:06:56.538] [DEBUG] default - 输出scriptData
+[2019-11-13T17:06:56.538] [DEBUG] default - 准备输出html!
+[2019-11-13T17:06:56.538] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:06:56.538] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:06:56.538] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:06:56.538] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:06:56.538] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:06:56.538] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:06:56.538] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:06:56.539] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:06:56.540] [INFO] default - 编译结束!
+[2019-11-13T17:06:56.541] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:06:56.542] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:06:56.542] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:06:56.542] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:06:56.542] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:07:10.868] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:07:10.868] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:07:10.868] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:07:10.868] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:07:10.868] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:07:10.868] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:07:10.868] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:07:10.868] [INFO] default - 开始处理模块: home
+[2019-11-13T17:07:10.906] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:07:10.906] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:07:10.919] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:07:10.927] [DEBUG] default - 模块swiperBox处理用时: 21 毫秒!
+[2019-11-13T17:07:10.928] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:07:10.933] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:07:10.934] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:07:10.934] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:07:10.934] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:07:10.934] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:07:10.935] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:07:10.935] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:07:10.935] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:07:10.935] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:07:10.936] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:07:10.936] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:07:10.936] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:07:10.936] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:07:10.937] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:07:10.938] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:07:10.950] [DEBUG] default - 页面home处理用时: 82 毫秒!
+[2019-11-13T17:07:10.951] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:07:10.951] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:07:10.951] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:07:10.951] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:07:10.951] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:07:10.951] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:07:10.958] [INFO] default - 处理字体: {}
+[2019-11-13T17:07:10.959] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-11-13T17:07:10.959] [INFO] default - 正在处理script!
+[2019-11-13T17:07:10.960] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:07:10.991] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:07:10.991] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:07:10.991] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:07:10.992] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:07:10.992] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:07:10.992] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:07:10.992] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:07:10.992] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:07:10.992] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:07:10.992] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:07:10.992] [DEBUG] default - 输出scriptData
+[2019-11-13T17:07:10.992] [DEBUG] default - 准备输出html!
+[2019-11-13T17:07:10.992] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:07:10.992] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:07:10.992] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:07:10.992] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:07:10.992] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:07:10.992] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:07:10.992] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:07:10.993] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:07:10.994] [INFO] default - 编译结束!
+[2019-11-13T17:07:10.995] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:07:11.004] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:07:11.004] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:07:11.007] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:07:11.014] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:08:34.483] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:08:34.484] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:08:34.484] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:08:34.484] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:08:34.484] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:08:34.484] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:08:34.484] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:08:34.484] [INFO] default - 开始处理模块: home
+[2019-11-13T17:08:34.517] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:08:34.517] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:08:34.533] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:08:34.542] [DEBUG] default - 模块swiperBox处理用时: 25 毫秒!
+[2019-11-13T17:08:34.543] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:08:34.549] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:08:34.550] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:08:34.550] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:08:34.550] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:08:34.550] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:08:34.552] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:08:34.552] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:08:34.552] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:08:34.552] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:08:34.553] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:08:34.553] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:08:34.553] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:08:34.553] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:08:34.555] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:08:34.556] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:08:34.568] [DEBUG] default - 页面home处理用时: 84 毫秒!
+[2019-11-13T17:08:34.569] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:08:34.569] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:08:34.569] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:08:34.569] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:08:34.569] [DEBUG] default - 处理资源:  [ 'D:/work/地方两会/src/resource/point.png' ]
+[2019-11-13T17:08:34.569] [DEBUG] default - 资源目录:  D:/work/地方两会/dist/static/resource
+[2019-11-13T17:08:34.569] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:08:34.570] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:08:34.575] [INFO] default - 处理字体: {}
+[2019-11-13T17:08:34.576] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-11-13T17:08:34.576] [INFO] default - 正在处理script!
+[2019-11-13T17:08:34.577] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:08:34.603] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:08:34.604] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:08:34.604] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:08:34.604] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:08:34.604] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:08:34.604] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:08:34.604] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:08:34.604] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:08:34.604] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:08:34.604] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:08:34.604] [DEBUG] default - 输出scriptData
+[2019-11-13T17:08:34.604] [DEBUG] default - 准备输出html!
+[2019-11-13T17:08:34.604] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:08:34.604] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:08:34.604] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:08:34.605] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:08:34.605] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:08:34.605] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:08:34.605] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:08:34.606] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:08:34.606] [INFO] default - 编译结束!
+[2019-11-13T17:08:34.607] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:08:34.608] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:08:34.608] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:08:34.608] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:08:34.613] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:08:55.498] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:08:55.498] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:08:55.498] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:08:55.498] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:08:55.498] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:08:55.498] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:08:55.498] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:08:55.499] [INFO] default - 开始处理模块: home
+[2019-11-13T17:08:55.535] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:08:55.535] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:08:55.546] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:08:55.553] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-11-13T17:08:55.554] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:08:55.559] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:08:55.560] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:08:55.560] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:08:55.560] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:08:55.560] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:08:55.561] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:08:55.561] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:08:55.561] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:08:55.561] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:08:55.561] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:08:55.561] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:08:55.561] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:08:55.561] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:08:55.562] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:08:55.564] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:08:55.575] [DEBUG] default - 页面home处理用时: 76 毫秒!
+[2019-11-13T17:08:55.576] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:08:55.576] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:08:55.576] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:08:55.576] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:08:55.576] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:08:55.576] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:08:55.576] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:08:55.583] [INFO] default - 处理字体: {}
+[2019-11-13T17:08:55.584] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-11-13T17:08:55.584] [INFO] default - 正在处理script!
+[2019-11-13T17:08:55.586] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:08:55.608] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:08:55.609] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:08:55.609] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:08:55.609] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:08:55.609] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:08:55.609] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:08:55.609] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:08:55.609] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:08:55.609] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:08:55.609] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:08:55.609] [DEBUG] default - 输出scriptData
+[2019-11-13T17:08:55.609] [DEBUG] default - 准备输出html!
+[2019-11-13T17:08:55.609] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:08:55.609] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:08:55.609] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:08:55.609] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:08:55.609] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:08:55.609] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:08:55.609] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:08:55.610] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:08:55.611] [INFO] default - 编译结束!
+[2019-11-13T17:08:55.611] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:08:55.612] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:08:55.612] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:08:55.613] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:08:55.613] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:09:57.384] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:09:57.384] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:09:57.385] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:09:57.385] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:09:57.385] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:09:57.385] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:09:57.385] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:09:57.385] [INFO] default - 开始处理模块: home
+[2019-11-13T17:09:57.412] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:09:57.412] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:09:57.423] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:09:57.432] [DEBUG] default - 模块swiperBox处理用时: 20 毫秒!
+[2019-11-13T17:09:57.433] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:09:57.439] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:09:57.440] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:09:57.440] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:09:57.440] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:09:57.440] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:09:57.441] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:09:57.441] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:09:57.442] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:09:57.442] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:09:57.442] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:09:57.442] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:09:57.442] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:09:57.442] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:09:57.443] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:09:57.444] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:09:57.456] [DEBUG] default - 页面home处理用时: 71 毫秒!
+[2019-11-13T17:09:57.456] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:09:57.456] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:09:57.456] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:09:57.456] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:09:57.456] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:09:57.457] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:09:57.457] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:09:57.462] [INFO] default - 处理字体: {}
+[2019-11-13T17:09:57.464] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-11-13T17:09:57.464] [INFO] default - 正在处理script!
+[2019-11-13T17:09:57.470] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:09:57.497] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:09:57.497] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:09:57.497] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:09:57.498] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:09:57.498] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:09:57.498] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:09:57.498] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:09:57.498] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:09:57.498] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:09:57.498] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:09:57.498] [DEBUG] default - 输出scriptData
+[2019-11-13T17:09:57.498] [DEBUG] default - 准备输出html!
+[2019-11-13T17:09:57.498] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:09:57.498] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:09:57.498] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:09:57.498] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:09:57.498] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:09:57.498] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:09:57.498] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:09:57.499] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:09:57.500] [INFO] default - 编译结束!
+[2019-11-13T17:09:57.500] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:09:57.513] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:09:57.514] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:09:57.517] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:09:57.523] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:10:26.157] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:10:26.158] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:10:26.158] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:10:26.158] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:10:26.158] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:10:26.158] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:10:26.158] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:10:26.158] [INFO] default - 开始处理模块: home
+[2019-11-13T17:10:26.188] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:10:26.188] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:10:26.200] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:10:26.207] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-11-13T17:10:26.208] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:10:26.214] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:10:26.215] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:10:26.216] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:10:26.216] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:10:26.216] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:10:26.217] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:10:26.217] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:10:26.217] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:10:26.217] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:10:26.218] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:10:26.218] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:10:26.218] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:10:26.218] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:10:26.218] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:10:26.221] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:10:26.233] [DEBUG] default - 页面home处理用时: 75 毫秒!
+[2019-11-13T17:10:26.233] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:10:26.233] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:10:26.233] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:10:26.233] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:10:26.234] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:10:26.234] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:10:26.234] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:10:26.237] [INFO] default - 处理字体: {}
+[2019-11-13T17:10:26.238] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-13T17:10:26.238] [INFO] default - 正在处理script!
+[2019-11-13T17:10:26.239] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:10:26.257] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:10:26.258] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:10:26.258] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:10:26.258] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:10:26.258] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:10:26.258] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:10:26.258] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:10:26.258] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:10:26.258] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:10:26.258] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:10:26.258] [DEBUG] default - 输出scriptData
+[2019-11-13T17:10:26.258] [DEBUG] default - 准备输出html!
+[2019-11-13T17:10:26.258] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:10:26.258] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:10:26.258] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:10:26.258] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:10:26.258] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:10:26.258] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:10:26.258] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:10:26.259] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:10:26.260] [INFO] default - 编译结束!
+[2019-11-13T17:10:26.261] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:10:26.262] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:10:26.262] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:10:26.262] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:10:26.263] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:10:59.534] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:10:59.534] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:10:59.535] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:10:59.535] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:10:59.535] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:10:59.535] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:10:59.535] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:10:59.536] [INFO] default - 开始处理模块: home
+[2019-11-13T17:10:59.567] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:10:59.567] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:10:59.578] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:10:59.585] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-11-13T17:10:59.586] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:10:59.592] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:10:59.593] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:10:59.593] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:10:59.593] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:10:59.593] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:10:59.594] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:10:59.594] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:10:59.594] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:10:59.594] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:10:59.594] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:10:59.595] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:10:59.595] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:10:59.595] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:10:59.595] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:10:59.596] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:10:59.609] [DEBUG] default - 页面home处理用时: 73 毫秒!
+[2019-11-13T17:10:59.610] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:10:59.610] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:10:59.610] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:10:59.610] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:10:59.610] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:10:59.610] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:10:59.610] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:10:59.615] [INFO] default - 处理字体: {}
+[2019-11-13T17:10:59.616] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-11-13T17:10:59.616] [INFO] default - 正在处理script!
+[2019-11-13T17:10:59.617] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:10:59.643] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:10:59.644] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:10:59.644] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:10:59.644] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:10:59.644] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:10:59.644] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:10:59.644] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:10:59.644] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:10:59.644] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:10:59.644] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:10:59.644] [DEBUG] default - 输出scriptData
+[2019-11-13T17:10:59.644] [DEBUG] default - 准备输出html!
+[2019-11-13T17:10:59.644] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:10:59.644] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:10:59.645] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:10:59.645] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:10:59.645] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:10:59.645] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:10:59.645] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:10:59.646] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:10:59.646] [INFO] default - 编译结束!
+[2019-11-13T17:10:59.647] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:10:59.648] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:10:59.648] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:10:59.648] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:10:59.648] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:14:02.662] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:14:02.662] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:14:02.662] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:14:02.662] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:14:02.662] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:14:02.662] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:14:02.662] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:14:02.662] [INFO] default - 开始处理模块: home
+[2019-11-13T17:14:02.690] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:14:02.691] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:14:02.701] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:14:02.709] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-11-13T17:14:02.710] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:14:02.715] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:14:02.717] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:14:02.717] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:14:02.717] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:14:02.717] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:14:02.718] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:14:02.719] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:14:02.719] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:14:02.719] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:14:02.720] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:14:02.720] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:14:02.720] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:14:02.720] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:14:02.721] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:14:02.723] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:14:02.735] [DEBUG] default - 页面home处理用时: 73 毫秒!
+[2019-11-13T17:14:02.735] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:14:02.735] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:14:02.735] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:14:02.735] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:14:02.735] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:14:02.735] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:14:02.735] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:14:02.740] [INFO] default - 处理字体: {}
+[2019-11-13T17:14:02.741] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-11-13T17:14:02.742] [INFO] default - 正在处理script!
+[2019-11-13T17:14:02.743] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:14:02.776] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:14:02.777] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:14:02.777] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:14:02.777] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:14:02.777] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:14:02.777] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:14:02.777] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:14:02.777] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:14:02.777] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:14:02.777] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:14:02.777] [DEBUG] default - 输出scriptData
+[2019-11-13T17:14:02.777] [DEBUG] default - 准备输出html!
+[2019-11-13T17:14:02.777] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:14:02.777] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:14:02.777] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:14:02.777] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:14:02.777] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:14:02.777] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:14:02.777] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:14:02.778] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:14:02.779] [INFO] default - 编译结束!
+[2019-11-13T17:14:02.780] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:14:02.782] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:14:02.782] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:14:02.782] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:14:02.797] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:15:21.647] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:15:21.647] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:15:21.647] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:15:21.647] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:15:21.647] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:15:21.647] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:15:21.648] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:15:21.648] [INFO] default - 开始处理模块: home
+[2019-11-13T17:15:21.693] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:15:21.693] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:15:21.703] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:15:21.712] [DEBUG] default - 模块swiperBox处理用时: 20 毫秒!
+[2019-11-13T17:15:21.713] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:15:21.719] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:15:21.720] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:15:21.721] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:15:21.721] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:15:21.721] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:15:21.722] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:15:21.722] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:15:21.722] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:15:21.722] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:15:21.723] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:15:21.723] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:15:21.723] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:15:21.723] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:15:21.724] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:15:21.725] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:15:21.736] [DEBUG] default - 页面home处理用时: 88 毫秒!
+[2019-11-13T17:15:21.737] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:15:21.737] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:15:21.737] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:15:21.737] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:15:21.737] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:15:21.737] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:15:21.737] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:15:21.745] [INFO] default - 处理字体: {}
+[2019-11-13T17:15:21.746] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-11-13T17:15:21.746] [INFO] default - 正在处理script!
+[2019-11-13T17:15:21.747] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:15:21.790] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:15:21.791] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:15:21.791] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:15:21.791] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:15:21.791] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:15:21.791] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:15:21.791] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:15:21.791] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:15:21.791] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:15:21.791] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:15:21.791] [DEBUG] default - 输出scriptData
+[2019-11-13T17:15:21.791] [DEBUG] default - 准备输出html!
+[2019-11-13T17:15:21.791] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:15:21.791] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:15:21.791] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:15:21.791] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:15:21.791] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:15:21.792] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:15:21.792] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:15:21.792] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:15:21.793] [INFO] default - 编译结束!
+[2019-11-13T17:15:21.794] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:15:21.794] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:15:21.794] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:15:21.795] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:15:21.795] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:15:45.851] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:15:45.852] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:15:45.852] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:15:45.852] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:15:45.852] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:15:45.852] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:15:45.852] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:15:45.852] [INFO] default - 开始处理模块: home
+[2019-11-13T17:15:45.890] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:15:45.891] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:15:45.901] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:15:45.908] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-11-13T17:15:45.909] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:15:45.914] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:15:45.915] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:15:45.916] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:15:45.916] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:15:45.916] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:15:45.916] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:15:45.916] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:15:45.917] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:15:45.917] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:15:45.918] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:15:45.918] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:15:45.918] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:15:45.918] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:15:45.919] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:15:45.919] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:15:45.930] [DEBUG] default - 页面home处理用时: 78 毫秒!
+[2019-11-13T17:15:45.931] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:15:45.931] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:15:45.931] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:15:45.931] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:15:45.931] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:15:45.931] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:15:45.931] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:15:45.936] [INFO] default - 处理字体: {}
+[2019-11-13T17:15:45.938] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-11-13T17:15:45.938] [INFO] default - 正在处理script!
+[2019-11-13T17:15:45.939] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:15:45.965] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:15:45.965] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:15:45.965] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:15:45.965] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:15:45.965] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:15:45.965] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:15:45.965] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:15:45.966] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:15:45.966] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:15:45.966] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:15:45.966] [DEBUG] default - 输出scriptData
+[2019-11-13T17:15:45.966] [DEBUG] default - 准备输出html!
+[2019-11-13T17:15:45.966] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:15:45.966] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:15:45.966] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:15:45.966] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:15:45.966] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:15:45.966] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:15:45.966] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:15:45.967] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:15:45.967] [INFO] default - 编译结束!
+[2019-11-13T17:15:45.968] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:15:45.993] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:15:45.993] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:15:45.994] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:15:45.997] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:16:02.863] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:16:02.863] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:16:02.863] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:16:02.863] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:16:02.863] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:16:02.863] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:16:02.863] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:16:02.863] [INFO] default - 开始处理模块: home
+[2019-11-13T17:16:02.903] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:16:02.903] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:16:02.913] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:16:02.922] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-11-13T17:16:02.922] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:16:02.927] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:16:02.928] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:16:02.929] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:16:02.929] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:16:02.929] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:16:02.930] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:16:02.930] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:16:02.930] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:16:02.930] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:16:02.932] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:16:02.932] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:16:02.932] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:16:02.932] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:16:02.933] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:16:02.933] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:16:02.944] [DEBUG] default - 页面home处理用时: 81 毫秒!
+[2019-11-13T17:16:02.944] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:16:02.944] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:16:02.944] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:16:02.944] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:16:02.944] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:16:02.944] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:16:02.944] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:16:02.952] [INFO] default - 处理字体: {}
+[2019-11-13T17:16:02.953] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-11-13T17:16:02.953] [INFO] default - 正在处理script!
+[2019-11-13T17:16:02.954] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:16:03.007] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:16:03.007] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:16:03.007] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:16:03.008] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:16:03.008] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:16:03.008] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:16:03.008] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:16:03.008] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:16:03.008] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:16:03.008] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:16:03.008] [DEBUG] default - 输出scriptData
+[2019-11-13T17:16:03.008] [DEBUG] default - 准备输出html!
+[2019-11-13T17:16:03.008] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:16:03.008] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:16:03.008] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:16:03.008] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:16:03.008] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:16:03.008] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:16:03.008] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:16:03.009] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:16:03.010] [INFO] default - 编译结束!
+[2019-11-13T17:16:03.011] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:16:03.012] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:16:03.012] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:16:03.012] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:16:03.013] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:19:41.564] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:19:41.564] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:19:41.564] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:19:41.564] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:19:41.564] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:19:41.564] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:19:41.564] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:19:41.564] [INFO] default - 开始处理模块: home
+[2019-11-13T17:19:41.599] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:19:41.599] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:19:41.612] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:19:41.618] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-11-13T17:19:41.620] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:19:41.624] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:19:41.626] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:19:41.626] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:19:41.626] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:19:41.626] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:19:41.627] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:19:41.627] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:19:41.627] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:19:41.627] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:19:41.627] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:19:41.628] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:19:41.628] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:19:41.628] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:19:41.628] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:19:41.629] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:19:41.639] [DEBUG] default - 页面home处理用时: 75 毫秒!
+[2019-11-13T17:19:41.640] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:19:41.640] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:19:41.640] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:19:41.640] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:19:41.640] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:19:41.640] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:19:41.640] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:19:41.646] [INFO] default - 处理字体: {}
+[2019-11-13T17:19:41.648] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-11-13T17:19:41.648] [INFO] default - 正在处理script!
+[2019-11-13T17:19:41.649] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:19:41.673] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:19:41.673] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:19:41.673] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:19:41.673] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:19:41.673] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:19:41.673] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:19:41.673] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:19:41.674] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:19:41.674] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:19:41.674] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:19:41.674] [DEBUG] default - 输出scriptData
+[2019-11-13T17:19:41.675] [DEBUG] default - 准备输出html!
+[2019-11-13T17:19:41.675] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:19:41.675] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:19:41.675] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:19:41.675] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:19:41.675] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:19:41.675] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:19:41.675] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:19:41.676] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:19:41.676] [INFO] default - 编译结束!
+[2019-11-13T17:19:41.678] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:19:41.695] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:19:41.695] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:19:41.696] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:19:41.701] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:23:59.685] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:23:59.685] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:23:59.685] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:23:59.685] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:23:59.685] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:23:59.685] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:23:59.685] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:23:59.686] [INFO] default - 开始处理模块: home
+[2019-11-13T17:23:59.729] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:23:59.729] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:23:59.740] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:23:59.748] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-11-13T17:23:59.748] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:23:59.754] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:23:59.755] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:23:59.756] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:23:59.756] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:23:59.756] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:23:59.756] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:23:59.757] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:23:59.757] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:23:59.757] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:23:59.757] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:23:59.758] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:23:59.758] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:23:59.758] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:23:59.760] [DEBUG] default - 模块plateTitleBar处理用时: 3 毫秒!
+[2019-11-13T17:23:59.761] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:23:59.774] [DEBUG] default - 页面home处理用时: 89 毫秒!
+[2019-11-13T17:23:59.775] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:23:59.775] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:23:59.775] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:23:59.775] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:23:59.775] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:23:59.775] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:23:59.775] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:23:59.781] [INFO] default - 处理字体: {}
+[2019-11-13T17:23:59.782] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-11-13T17:23:59.782] [INFO] default - 正在处理script!
+[2019-11-13T17:23:59.783] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:23:59.826] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:23:59.827] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:23:59.827] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:23:59.827] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:23:59.827] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:23:59.827] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:23:59.827] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:23:59.827] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:23:59.827] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:23:59.827] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:23:59.827] [DEBUG] default - 输出scriptData
+[2019-11-13T17:23:59.827] [DEBUG] default - 准备输出html!
+[2019-11-13T17:23:59.827] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:23:59.827] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:23:59.827] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:23:59.827] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:23:59.827] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:23:59.827] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:23:59.828] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:23:59.829] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:23:59.830] [INFO] default - 编译结束!
+[2019-11-13T17:23:59.830] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:23:59.831] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:23:59.831] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:23:59.831] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:23:59.831] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:25:23.973] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:25:23.973] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:25:23.973] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:25:23.973] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:25:23.973] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:25:23.973] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:25:23.973] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:25:23.974] [INFO] default - 开始处理模块: home
+[2019-11-13T17:25:24.010] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:25:24.010] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:25:24.019] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:25:24.028] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-11-13T17:25:24.030] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:25:24.034] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:25:24.036] [DEBUG] default - 模块plateTitleBar处理用时: 7 毫秒!
+[2019-11-13T17:25:24.036] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:25:24.036] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:25:24.036] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:25:24.037] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:25:24.038] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:25:24.038] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:25:24.038] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:25:24.038] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:25:24.038] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:25:24.038] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:25:24.038] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:25:24.039] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:25:24.040] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:25:24.052] [DEBUG] default - 页面home处理用时: 79 毫秒!
+[2019-11-13T17:25:24.053] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:25:24.053] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:25:24.053] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:25:24.053] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:25:24.053] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:25:24.053] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:25:24.053] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:25:24.062] [INFO] default - 处理字体: {}
+[2019-11-13T17:25:24.063] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-11-13T17:25:24.064] [INFO] default - 正在处理script!
+[2019-11-13T17:25:24.065] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:25:24.087] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:25:24.087] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:25:24.087] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:25:24.087] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:25:24.087] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:25:24.087] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:25:24.087] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:25:24.087] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:25:24.087] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:25:24.087] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:25:24.087] [DEBUG] default - 输出scriptData
+[2019-11-13T17:25:24.087] [DEBUG] default - 准备输出html!
+[2019-11-13T17:25:24.088] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:25:24.088] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:25:24.088] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:25:24.088] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:25:24.088] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:25:24.088] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:25:24.088] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:25:24.089] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:25:24.089] [INFO] default - 编译结束!
+[2019-11-13T17:25:24.090] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:25:24.096] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:25:24.113] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:25:24.114] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:25:24.118] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:25:38.198] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:25:38.198] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:25:38.198] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:25:38.198] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:25:38.198] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:25:38.198] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:25:38.198] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:25:38.198] [INFO] default - 开始处理模块: home
+[2019-11-13T17:25:38.236] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:25:38.236] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:25:38.248] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:25:38.256] [DEBUG] default - 模块swiperBox处理用时: 20 毫秒!
+[2019-11-13T17:25:38.257] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:25:38.261] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:25:38.262] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:25:38.263] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:25:38.263] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:25:38.263] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:25:38.263] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:25:38.264] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:25:38.264] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:25:38.264] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:25:38.264] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:25:38.264] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:25:38.264] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:25:38.264] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:25:38.265] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:25:38.267] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:25:38.278] [DEBUG] default - 页面home处理用时: 80 毫秒!
+[2019-11-13T17:25:38.279] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:25:38.279] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:25:38.279] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:25:38.279] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:25:38.279] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:25:38.279] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:25:38.279] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:25:38.286] [INFO] default - 处理字体: {}
+[2019-11-13T17:25:38.287] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-11-13T17:25:38.288] [INFO] default - 正在处理script!
+[2019-11-13T17:25:38.289] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:25:38.328] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:25:38.329] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:25:38.329] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:25:38.329] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:25:38.329] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:25:38.329] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:25:38.329] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:25:38.329] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:25:38.329] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:25:38.329] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:25:38.329] [DEBUG] default - 输出scriptData
+[2019-11-13T17:25:38.329] [DEBUG] default - 准备输出html!
+[2019-11-13T17:25:38.330] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:25:38.330] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:25:38.330] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:25:38.330] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:25:38.330] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:25:38.330] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:25:38.330] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:25:38.331] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:25:38.331] [INFO] default - 编译结束!
+[2019-11-13T17:25:38.332] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:25:38.333] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:25:38.333] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:25:38.333] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:25:38.334] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:26:11.913] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:26:11.913] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:26:11.913] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:26:11.913] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:26:11.913] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:26:11.913] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:26:11.913] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:26:11.914] [INFO] default - 开始处理模块: home
+[2019-11-13T17:26:11.945] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:26:11.945] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:26:11.953] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:26:11.960] [DEBUG] default - 模块swiperBox处理用时: 15 毫秒!
+[2019-11-13T17:26:11.961] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:26:11.967] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:26:11.967] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:26:11.968] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:26:11.968] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:26:11.968] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:26:11.968] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:26:11.969] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:26:11.969] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:26:11.969] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:26:11.970] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:26:11.970] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:26:11.970] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:26:11.970] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:26:11.970] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:26:11.971] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:26:11.987] [DEBUG] default - 页面home处理用时: 73 毫秒!
+[2019-11-13T17:26:11.987] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:26:11.987] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:26:11.987] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:26:11.987] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:26:11.987] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:26:11.987] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:26:11.988] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:26:11.993] [INFO] default - 处理字体: {}
+[2019-11-13T17:26:11.994] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-11-13T17:26:11.994] [INFO] default - 正在处理script!
+[2019-11-13T17:26:11.995] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:26:12.018] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:26:12.018] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:26:12.018] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:26:12.018] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:26:12.018] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:26:12.018] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:26:12.018] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:26:12.019] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:26:12.019] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:26:12.019] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:26:12.019] [DEBUG] default - 输出scriptData
+[2019-11-13T17:26:12.019] [DEBUG] default - 准备输出html!
+[2019-11-13T17:26:12.019] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:26:12.019] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:26:12.019] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:26:12.019] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:26:12.019] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:26:12.019] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:26:12.019] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:26:12.020] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:26:12.020] [INFO] default - 编译结束!
+[2019-11-13T17:26:12.021] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:26:12.037] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:26:12.037] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:26:12.037] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:26:12.049] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:27:10.591] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:27:10.591] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:27:10.591] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:27:10.591] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:27:10.591] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:27:10.591] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:27:10.591] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:27:10.592] [INFO] default - 开始处理模块: home
+[2019-11-13T17:27:10.637] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:27:10.637] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:27:10.649] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:27:10.657] [DEBUG] default - 模块swiperBox处理用时: 20 毫秒!
+[2019-11-13T17:27:10.658] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:27:10.663] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:27:10.664] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:27:10.665] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:27:10.665] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:27:10.665] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:27:10.666] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:27:10.667] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:27:10.667] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:27:10.667] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:27:10.667] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:27:10.667] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:27:10.667] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:27:10.667] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:27:10.668] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:27:10.669] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:27:10.679] [DEBUG] default - 页面home处理用时: 87 毫秒!
+[2019-11-13T17:27:10.680] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:27:10.680] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:27:10.680] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:27:10.680] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:27:10.680] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:27:10.680] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:27:10.680] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:27:10.687] [INFO] default - 处理字体: {}
+[2019-11-13T17:27:10.688] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-11-13T17:27:10.688] [INFO] default - 正在处理script!
+[2019-11-13T17:27:10.689] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:27:10.732] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:27:10.732] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:27:10.732] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:27:10.732] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:27:10.732] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:27:10.732] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:27:10.732] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:27:10.732] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:27:10.732] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:27:10.732] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:27:10.732] [DEBUG] default - 输出scriptData
+[2019-11-13T17:27:10.733] [DEBUG] default - 准备输出html!
+[2019-11-13T17:27:10.733] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:27:10.733] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:27:10.733] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:27:10.733] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:27:10.733] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:27:10.733] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:27:10.733] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:27:10.734] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:27:10.734] [INFO] default - 编译结束!
+[2019-11-13T17:27:10.735] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:27:10.736] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:27:10.736] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:27:10.736] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:27:10.737] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:27:19.448] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:27:19.448] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:27:19.448] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:27:19.448] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:27:19.448] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:27:19.449] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:27:19.449] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:27:19.449] [INFO] default - 开始处理模块: home
+[2019-11-13T17:27:19.485] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:27:19.485] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:27:19.500] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:27:19.507] [DEBUG] default - 模块swiperBox处理用时: 22 毫秒!
+[2019-11-13T17:27:19.508] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:27:19.514] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:27:19.516] [DEBUG] default - 模块plateTitleBar处理用时: 8 毫秒!
+[2019-11-13T17:27:19.516] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:27:19.517] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:27:19.517] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:27:19.517] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:27:19.517] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:27:19.517] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:27:19.517] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:27:19.518] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:27:19.518] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:27:19.518] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:27:19.518] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:27:19.519] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:27:19.520] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:27:19.531] [DEBUG] default - 页面home处理用时: 82 毫秒!
+[2019-11-13T17:27:19.531] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:27:19.531] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:27:19.531] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:27:19.531] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:27:19.531] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:27:19.531] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:27:19.531] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:27:19.537] [INFO] default - 处理字体: {}
+[2019-11-13T17:27:19.538] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-11-13T17:27:19.538] [INFO] default - 正在处理script!
+[2019-11-13T17:27:19.539] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:27:19.567] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:27:19.567] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:27:19.567] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:27:19.567] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:27:19.567] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:27:19.567] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:27:19.567] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:27:19.567] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:27:19.567] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:27:19.567] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:27:19.568] [DEBUG] default - 输出scriptData
+[2019-11-13T17:27:19.568] [DEBUG] default - 准备输出html!
+[2019-11-13T17:27:19.568] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:27:19.568] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:27:19.568] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:27:19.568] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:27:19.568] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:27:19.568] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:27:19.568] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:27:19.569] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:27:19.569] [INFO] default - 编译结束!
+[2019-11-13T17:27:19.570] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:27:19.599] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:27:19.599] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:27:19.599] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:27:19.606] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:31:14.226] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:31:14.226] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:31:14.226] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:31:14.226] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:31:14.226] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:31:14.226] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:31:14.226] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:31:14.226] [INFO] default - 开始处理模块: home
+[2019-11-13T17:31:14.268] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:31:14.268] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:31:14.278] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:31:14.286] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-11-13T17:31:14.287] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:31:14.293] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:31:14.295] [DEBUG] default - 模块plateTitleBar处理用时: 9 毫秒!
+[2019-11-13T17:31:14.295] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:31:14.295] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:31:14.295] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:31:14.296] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:31:14.297] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:31:14.297] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:31:14.297] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:31:14.297] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:31:14.298] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:31:14.298] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:31:14.298] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:31:14.298] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:31:14.299] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:31:14.310] [DEBUG] default - 页面home处理用时: 84 毫秒!
+[2019-11-13T17:31:14.311] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:31:14.311] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:31:14.311] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:31:14.311] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:31:14.311] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:31:14.311] [DEBUG] default - 处理资源:  [ 'D:/work/地方两会/src/resource/down.png',
+  'D:/work/地方两会/src/resource/up.png' ]
+[2019-11-13T17:31:14.311] [DEBUG] default - 资源目录:  D:/work/地方两会/dist/static/resource
+[2019-11-13T17:31:14.311] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:31:14.311] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:31:14.318] [INFO] default - 处理字体: {}
+[2019-11-13T17:31:14.320] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-11-13T17:31:14.320] [INFO] default - 正在处理script!
+[2019-11-13T17:31:14.321] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:31:14.364] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:31:14.364] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:31:14.364] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:31:14.364] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:31:14.364] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:31:14.364] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:31:14.364] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:31:14.364] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:31:14.364] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:31:14.364] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:31:14.364] [DEBUG] default - 输出scriptData
+[2019-11-13T17:31:14.364] [DEBUG] default - 准备输出html!
+[2019-11-13T17:31:14.364] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:31:14.364] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:31:14.364] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:31:14.365] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:31:14.365] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:31:14.365] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:31:14.365] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:31:14.365] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:31:14.366] [INFO] default - 编译结束!
+[2019-11-13T17:31:14.367] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:31:14.369] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:31:14.369] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:31:14.369] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:31:14.385] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:33:09.418] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:33:09.418] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:33:09.419] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:33:09.419] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:33:09.419] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:33:09.419] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:33:09.419] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:33:09.419] [INFO] default - 开始处理模块: home
+[2019-11-13T17:33:09.465] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:33:09.465] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:33:09.477] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:33:09.484] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-11-13T17:33:09.485] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:33:09.489] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:33:09.490] [DEBUG] default - 模块plateTitleBar处理用时: 5 毫秒!
+[2019-11-13T17:33:09.490] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:33:09.490] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:33:09.490] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:33:09.491] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:33:09.491] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:33:09.491] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:33:09.491] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:33:09.491] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:33:09.491] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:33:09.491] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:33:09.491] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:33:09.493] [DEBUG] default - 模块plateTitleBar处理用时: 2 毫秒!
+[2019-11-13T17:33:09.494] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:33:09.505] [DEBUG] default - 页面home处理用时: 86 毫秒!
+[2019-11-13T17:33:09.506] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:33:09.506] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:33:09.506] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:33:09.506] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:33:09.506] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:33:09.506] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/down.png
+[2019-11-13T17:33:09.506] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/up.png
+[2019-11-13T17:33:09.506] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:33:09.506] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:33:09.511] [INFO] default - 处理字体: {}
+[2019-11-13T17:33:09.513] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-11-13T17:33:09.513] [INFO] default - 正在处理script!
+[2019-11-13T17:33:09.514] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:33:09.536] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:33:09.536] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:33:09.536] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:33:09.536] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:33:09.536] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:33:09.536] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:33:09.536] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:33:09.536] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:33:09.536] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:33:09.536] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:33:09.537] [DEBUG] default - 输出scriptData
+[2019-11-13T17:33:09.537] [DEBUG] default - 准备输出html!
+[2019-11-13T17:33:09.537] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:33:09.537] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:33:09.537] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:33:09.537] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:33:09.537] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:33:09.537] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:33:09.537] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:33:09.538] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:33:09.538] [INFO] default - 编译结束!
+[2019-11-13T17:33:09.539] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:33:09.549] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:33:09.549] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:33:09.550] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:33:09.554] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:33:53.140] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:33:53.140] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:33:53.140] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:33:53.140] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:33:53.140] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:33:53.141] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:33:53.141] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:33:53.141] [INFO] default - 开始处理模块: home
+[2019-11-13T17:33:53.202] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:33:53.203] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:33:53.212] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:33:53.219] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-11-13T17:33:53.220] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:33:53.224] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:33:53.225] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:33:53.225] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:33:53.225] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:33:53.225] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:33:53.226] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:33:53.226] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:33:53.226] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:33:53.226] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:33:53.227] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:33:53.227] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:33:53.227] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:33:53.227] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:33:53.230] [DEBUG] default - 模块plateTitleBar处理用时: 3 毫秒!
+[2019-11-13T17:33:53.230] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:33:53.242] [DEBUG] default - 页面home处理用时: 101 毫秒!
+[2019-11-13T17:33:53.243] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:33:53.243] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:33:53.243] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:33:53.243] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:33:53.243] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:33:53.243] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/down.png
+[2019-11-13T17:33:53.243] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/up.png
+[2019-11-13T17:33:53.243] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:33:53.243] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:33:53.252] [INFO] default - 处理字体: {}
+[2019-11-13T17:33:53.253] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-11-13T17:33:53.254] [INFO] default - 正在处理script!
+[2019-11-13T17:33:53.255] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:33:53.294] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:33:53.295] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:33:53.295] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:33:53.295] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:33:53.295] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:33:53.295] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:33:53.295] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:33:53.295] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:33:53.295] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:33:53.295] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:33:53.295] [DEBUG] default - 输出scriptData
+[2019-11-13T17:33:53.295] [DEBUG] default - 准备输出html!
+[2019-11-13T17:33:53.295] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:33:53.295] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:33:53.295] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:33:53.295] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:33:53.295] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:33:53.295] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:33:53.295] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:33:53.296] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:33:53.297] [INFO] default - 编译结束!
+[2019-11-13T17:33:53.297] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:33:53.298] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:33:53.298] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:33:53.298] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:33:53.299] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:35:19.877] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:35:19.877] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:35:19.877] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:35:19.877] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:35:19.877] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:35:19.877] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:35:19.877] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:35:19.877] [INFO] default - 开始处理模块: home
+[2019-11-13T17:35:19.912] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:35:19.912] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:35:19.923] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:35:19.929] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-11-13T17:35:19.931] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:35:19.936] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:35:19.937] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:35:19.938] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:35:19.938] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:35:19.938] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:35:19.939] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:35:19.939] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:35:19.939] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:35:19.939] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:35:19.940] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:35:19.940] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:35:19.940] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:35:19.940] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:35:19.940] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:35:19.941] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:35:19.953] [DEBUG] default - 页面home处理用时: 76 毫秒!
+[2019-11-13T17:35:19.953] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:35:19.953] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:35:19.954] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:35:19.954] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:35:19.954] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:35:19.954] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/down.png
+[2019-11-13T17:35:19.954] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/up.png
+[2019-11-13T17:35:19.954] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:35:19.954] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:35:19.958] [INFO] default - 处理字体: {}
+[2019-11-13T17:35:19.960] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-11-13T17:35:19.960] [INFO] default - 正在处理script!
+[2019-11-13T17:35:19.961] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:35:19.987] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:35:19.988] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:35:19.988] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:35:19.988] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:35:19.988] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:35:19.988] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:35:19.988] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:35:19.988] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:35:19.988] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:35:19.988] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:35:19.988] [DEBUG] default - 输出scriptData
+[2019-11-13T17:35:19.988] [DEBUG] default - 准备输出html!
+[2019-11-13T17:35:19.988] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:35:19.988] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:35:19.988] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:35:19.988] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:35:19.988] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:35:19.988] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:35:19.988] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:35:19.989] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:35:19.990] [INFO] default - 编译结束!
+[2019-11-13T17:35:19.991] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:35:20.004] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:35:20.004] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:35:20.004] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:35:20.013] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js
+[2019-11-13T17:35:38.322] [INFO] default - file change: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:35:38.322] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-13T17:35:38.322] [INFO] default - 程序运行目录: D:\work\地方两会
+[2019-11-13T17:35:38.322] [INFO] default - 刷新模式,变化目录: D:\work\地方两会\src\page\home.owo
+[2019-11-13T17:35:38.322] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-13T17:35:38.322] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-13T17:35:38.323] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-13T17:35:38.323] [INFO] default - 开始处理模块: home
+[2019-11-13T17:35:38.361] [INFO] default - 开始处理模块: swiperBox
+[2019-11-13T17:35:38.362] [DEBUG] default - 使用文件缓存:D:\work\地方两会\owo_modules\d77621dedbe1e1d255b40e1ac924f5da.owo
+[2019-11-13T17:35:38.371] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/9be49efe789907110ae4a89550a9f909.page
+[2019-11-13T17:35:38.379] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-11-13T17:35:38.380] [INFO] default - 开始处理模块: plateTitleBar
+[2019-11-13T17:35:38.385] [DEBUG] default - 缓存模板: plateTitleBar./src/module/plateTitleBar.owo
+[2019-11-13T17:35:38.386] [DEBUG] default - 模块plateTitleBar处理用时: 6 毫秒!
+[2019-11-13T17:35:38.386] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-1
+[2019-11-13T17:35:38.386] [INFO] default - 开始处理模块: plateTitleBar-1
+[2019-11-13T17:35:38.386] [DEBUG] default - 使用缓存返回模板: plateTitleBar-1
+[2019-11-13T17:35:38.387] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:35:38.387] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-2
+[2019-11-13T17:35:38.387] [INFO] default - 开始处理模块: plateTitleBar-2
+[2019-11-13T17:35:38.387] [DEBUG] default - 使用缓存返回模板: plateTitleBar-2
+[2019-11-13T17:35:38.389] [DEBUG] default - 模块plateTitleBar处理用时: 1 毫秒!
+[2019-11-13T17:35:38.389] [DEBUG] default - 模块 plateTitleBar 因名称重复被重命名为 plateTitleBar-3
+[2019-11-13T17:35:38.389] [INFO] default - 开始处理模块: plateTitleBar-3
+[2019-11-13T17:35:38.389] [DEBUG] default - 使用缓存返回模板: plateTitleBar-3
+[2019-11-13T17:35:38.389] [DEBUG] default - 模块plateTitleBar处理用时: 0 毫秒!
+[2019-11-13T17:35:38.390] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-13T17:35:38.403] [DEBUG] default - 页面home处理用时: 80 毫秒!
+[2019-11-13T17:35:38.403] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title.png
+[2019-11-13T17:35:38.403] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/title-bar.png
+[2019-11-13T17:35:38.403] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/calendar.png
+[2019-11-13T17:35:38.403] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/rolling-news.jpg
+[2019-11-13T17:35:38.403] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/point.png
+[2019-11-13T17:35:38.403] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/down.png
+[2019-11-13T17:35:38.403] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/up.png
+[2019-11-13T17:35:38.403] [DEBUG] default - css中的资源处理完毕!
+[2019-11-13T17:35:38.403] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-13T17:35:38.412] [INFO] default - 处理字体: {}
+[2019-11-13T17:35:38.414] [INFO] default - 使用postcss处理完毕! 用时: 11 毫秒
+[2019-11-13T17:35:38.414] [INFO] default - 正在处理script!
+[2019-11-13T17:35:38.415] [DEBUG] default - 选择将js合并到html中!
+[2019-11-13T17:35:38.457] [INFO] default - 工程中只有一个页面!
+[2019-11-13T17:35:38.457] [INFO] default - js中的资源处理完毕!
+[2019-11-13T17:35:38.458] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-13T17:35:38.458] [DEBUG] default - 外部脚本数量: 3
+[2019-11-13T17:35:38.458] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-13T17:35:38.458] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-13T17:35:38.458] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-13T17:35:38.458] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-13T17:35:38.458] [DEBUG] default - 处理脚本: main
+[2019-11-13T17:35:38.458] [INFO] default - 读取文件: D:\work\地方两会\src\main.js
+[2019-11-13T17:35:38.458] [DEBUG] default - 输出scriptData
+[2019-11-13T17:35:38.458] [DEBUG] default - 准备输出html!
+[2019-11-13T17:35:38.458] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/bg.jpg
+[2019-11-13T17:35:38.458] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-previou.png
+[2019-11-13T17:35:38.458] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/swiper-next.png
+[2019-11-13T17:35:38.458] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-1.png
+[2019-11-13T17:35:38.458] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-2.png
+[2019-11-13T17:35:38.458] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-4.png
+[2019-11-13T17:35:38.458] [DEBUG] default - 忽略文件: D:/work/地方两会/src/resource/icon-3.png
+[2019-11-13T17:35:38.459] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-13T17:35:38.460] [INFO] default - 编译结束!
+[2019-11-13T17:35:38.461] [INFO] default - 发送页面需要刷新命令!
+[2019-11-13T17:35:38.461] [INFO] default - 写入文件: D:\work\地方两会\dist\static\css\owo.main.css
+[2019-11-13T17:35:38.461] [INFO] default - 读取成功: D:\work\地方两会\src\main.js
+[2019-11-13T17:35:38.461] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-13T17:35:38.462] [INFO] default - 写入文件: D:\work\地方两会\dist\static\js\main.js

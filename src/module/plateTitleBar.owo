@@ -1,0 +1,26 @@
+<template lang="pug">
+.plate-title-bar
+  h2
+    span(style="color: #bc1b21;") 报告
+    span(style="color: #393939;") 解读
+  p 2020地方两会特别报道
+</template>
+
+<style>
+.plate-title-bar {
+  height: 51px;
+  background-repeat: no-repeat;
+  background-image: url('@|title.png|');
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Microsoft YaHei";
+  line-height: 33px;
+}
+p {
+  text-align: center;
+  line-height: 22px;
+  color: #797979;
+}
+</style>
