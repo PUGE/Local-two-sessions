@@ -1,0 +1,28 @@
+<template lang="pug">
+ul.news-list
+  li
+    a(href="#") 解读2020政府工作报告释放哪些“十三五读2016政展信号解解读2020政府工作报告释放哪些“十三五读2016政展信号解
+  li
+    a(href="#") 读2释放哪些解读2020政府工作报告释放哪些些三些三三
+  li
+    a(href="#") 释放哪些三五展信号解读2释放哪些三五府
+  li
+    a(href="#") 工作报些三五展信些解读2020政府工作报告释放哪些三五展信
+  li
+    a(href="#") 些三五展信展展信号解展信号解信号解读2释放哪些三五展信号
+  li
+    a(href="#") 三五府工作报展信号解展信号解信号解读2释放哪些三
+</template>
+
+<style>
+li {
+  background-image: url('@|list-icon.png|');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
+  height: 36px;
+  overflow: hidden;
+  line-height: 36px;
+  font-size: 16px;
+}
+</style>

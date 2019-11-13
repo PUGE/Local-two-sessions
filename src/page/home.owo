@@ -60,7 +60,7 @@
     //- 滚动新闻
     .rolling-news
     //- 标题栏
-    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
+    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
     //- 视频列表
     .video-box.clear
       .left.fl
@@ -79,9 +79,72 @@
         .control-bar.clear
           .fl.down
           .fl.up
-    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
-    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
-    plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo" _text1="ssdsd")
+    //- 报道解读
+    .jiedu
+      plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
+      .unscramble.clear
+        .left.fl
+        plug.right.fl(_name="list" _src="./src/module/list.owo")
+    //- 报道焦点
+    .jiaodian
+      plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
+      .focus-box
+        img.left-button.swiper-button(src="@|left-button.png|")
+        img.right-button.swiper-button(src="@|right-button.png|")
+      plug(_name="show" _src="https://owo.ink/public/66e11c0a5d97fc9526b240e5f8ee63e9.page")
+  .smoke
+    .w1000
+      //- 人物报道
+      .renwubaodao
+        plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
+        .people-box
+          img.left-button.swiper-button(src="@|people-left-button.png|")
+          img.right-button.swiper-button(src="@|people-right-button.png|")
+  .w1000
+    //- 议案提案
+    .yiantian
+      plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
+      ul.clear
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+        li
+          a(href="#") 解读2016政府工作报告释放哪释放哪些“十三五”发展信号
+    //- 精彩图片
+    .jingcaitupian
+      plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
+      .picture-box
+        img.left-button.swiper-button(src="@|picture-left-button.png|")
+        img.right-button.swiper-button(src="@|picture-right-button.png|")
+      plug(_name="show" _src="https://owo.ink/public/66e11c0a5d97fc9526b240e5f8ee63e9.page")
+      //- 底部三条图片
+      ul.three-image-box.clear
+        li
+          a(href="#")
+            img(src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911131704059428893394681.jpg")
+        li
+          a(href="#")
+            img(src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911131704059428893394681.jpg")
+        li
+          a(href="#")
+            img(src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911131704059428893394681.jpg")
+  //- 版权信息
+  plug(_name="copyright" _src="https://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page")
 </template>
 
 <script>
@@ -305,5 +368,124 @@
       }
     }
   }
+}
+
+.unscramble {
+  .left {
+    width: 485px;
+    height: 220px;
+    margin-right: 30px;
+    background-color: #ccc;
+  }
+  .right {
+    width: 485px;
+    height: 216px;
+    margin: 2px 0;
+  }
+}
+
+.focus-box {
+  height: 365px;
+  position: relative;
+  background-color: #ccc;
+  .swiper-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+  }
+  .left-button {
+    left: -30px;
+  }
+  .right-button {
+    right: -30px;
+  }
+}
+
+.show {
+  margin: 30px 0;
+}
+
+.people-box {
+  height: 380px;
+  position: relative;
+  background-color: #ccc;
+  .swiper-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+  }
+  .left-button {
+    left: 20%;
+  }
+  .right-button {
+    right: 20%;
+  }
+}
+.yiantian {
+  li, a {
+    color: #222;
+    font-size: 16px;
+    line-height: 32px;
+    
+    height: 32px;
+    overflow: hidden;
+  }
+  li:hover, a:hover {
+    color: #bc1b21;
+  }
+  li {
+    width: 46%;
+    float: left;
+    padding-right: 4%;
+  }
+}
+
+.picture-box {
+  height: 600px;
+  position: relative;
+  background-color: #ccc;
+  .swiper-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+  }
+  .left-button {
+    left: 20%;
+  }
+  .right-button {
+    right: 20%;
+  }
+}
+
+.three-image-box {
+  height: 150px;
+  li, a {
+    height: 100%;
+  }
+  a, img {
+    width: 100%;
+    height: 100%;
+  }
+  li {
+    float: left;
+    overflow: hidden;
+    width: 313px;
+  }
+  li:nth-child(2) { 
+    margin: 0 30px;
+  }
+}
+
+.smoke {
+  background-color: whitesmoke;
+}
+.mt30 {
+  margin: 30px 0;
 }
 </style>
