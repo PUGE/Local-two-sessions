@@ -1,4 +1,119 @@
-// Wed Nov 13 2019 22:47:26 GMT+0800 (GMT+08:00)
+// Thu Nov 14 2019 08:31:25 GMT+0800 (GMT+08:00)
+
+// 存储页面基本信息
+var owo = {
+  // 手机入口
+  phoneEnter: "null",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "home": {
+    "created": function created() {},
+    "template": {
+      "swiperBox": {
+        "data": {
+          "swiper": null
+        },
+        "created": function created() {
+          var _this = this;
+
+          var slideListLength = owo.query('.swiper-wrapper .swiper-slide').length;
+          owo.query('.index')[0].innerText = '1/' + slideListLength; // 轮播图展示区域swiper
+
+          setTimeout(function () {
+            _this.data.swiper = new Swiper(owo.query('.swiper-container')[0], {
+              pagination: owo.query('.pagination')[0],
+              loop: true,
+              autoplay: 3000,
+              paginationClickable: true,
+              onSlideChangeStart: function onSlideChangeStart(swiper) {
+                var index = null;
+                if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex;else index = 1;
+                owo.query('.index')[0].innerText = index + '/' + slideListLength;
+              }
+            });
+            setTimeout(function () {
+              var switchList = owo.query('.pagination .swiper-pagination-switch');
+
+              for (var ind = 0; ind < switchList.length; ind++) {
+                switchList[ind].style.width = 100 / slideListLength + '%';
+              }
+            }, 100);
+          }, 0);
+        },
+        "previou": function previou() {
+          this.data.swiper.swipePrev();
+        },
+        "next": function next() {
+          this.data.swiper.swipeNext();
+        },
+        "prop": {
+          "class": "left"
+        }
+      },
+      "list": {
+        "prop": {
+          "class": "right fl"
+        }
+      }
+    }
+  },
+  "swiperBox": {
+    "data": {
+      "swiper": null
+    },
+    "created": function created() {
+      var _this2 = this;
+
+      var slideListLength = owo.query('.swiper-wrapper .swiper-slide').length;
+      owo.query('.index')[0].innerText = '1/' + slideListLength; // 轮播图展示区域swiper
+
+      setTimeout(function () {
+        _this2.data.swiper = new Swiper(owo.query('.swiper-container')[0], {
+          pagination: owo.query('.pagination')[0],
+          loop: true,
+          autoplay: 3000,
+          paginationClickable: true,
+          onSlideChangeStart: function onSlideChangeStart(swiper) {
+            var index = null;
+            if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex;else index = 1;
+            owo.query('.index')[0].innerText = index + '/' + slideListLength;
+          }
+        });
+        setTimeout(function () {
+          var switchList = owo.query('.pagination .swiper-pagination-switch');
+
+          for (var ind = 0; ind < switchList.length; ind++) {
+            switchList[ind].style.width = 100 / slideListLength + '%';
+          }
+        }, 100);
+      }, 0);
+    },
+    "previou": function previou() {
+      this.data.swiper.swipePrev();
+    },
+    "next": function next() {
+      this.data.swiper.swipeNext();
+    },
+    "prop": {
+      "class": "left"
+    }
+  },
+  "list": {
+    "prop": {
+      "class": "right fl"
+    }
+  }
+};
 
 /* 方法合集 */
 var _owo = {}
@@ -235,23 +350,6 @@ _owo.showPage = function() {
 // 执行页面加载完毕方法
 _owo.ready(_owo.showPage)
 
-
-
-// 这是用于代码调试的自动刷新代码，他不应该出现在正式上线版本!
-if ("WebSocket" in window) {
-  // 打开一个 web socket
-  if (!window._owo.ws) window._owo.ws = new WebSocket("ws://" + window.location.host)
-  window._owo.ws.onmessage = function (evt) { 
-    if (evt.data == 'reload') {
-      location.reload()
-    }
-  }
-  window._owo.ws.onclose = function() { 
-    console.info('与服务器断开连接')
-  }
-} else {
-  console.error('浏览器不支持WebSocket')
-}
 
 
 

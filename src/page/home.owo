@@ -89,8 +89,8 @@
     .jiaodian
       plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
       .focus-box
-        img.left-button.swiper-button(src="@|left-button.png|")
-        img.right-button.swiper-button(src="@|right-button.png|")
+        img.left-button.swiper-button(src="@|left-button.png|" o-hover="grow")
+        img.right-button.swiper-button(src="@|right-button.png|" o-hover="grow")
       plug(_name="show" _src="https://owo.ink/public/66e11c0a5d97fc9526b240e5f8ee63e9.page")
   .smoke
     .w1000
@@ -98,8 +98,8 @@
       .renwubaodao
         plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
         .people-box
-          img.left-button.swiper-button(src="@|people-left-button.png|")
-          img.right-button.swiper-button(src="@|people-right-button.png|")
+          img.left-button.swiper-button(src="@|people-left-button.png|" o-hover="grow")
+          img.right-button.swiper-button(src="@|people-right-button.png|" o-hover="grow")
   .w1000
     //- 议案提案
     .yiantian
@@ -129,8 +129,8 @@
     .jingcaitupian
       plug(_name="plateTitleBar" _src="./src/module/plateTitleBar.owo")
       .picture-box
-        img.left-button.swiper-button(src="@|picture-left-button.png|")
-        img.right-button.swiper-button(src="@|picture-right-button.png|")
+        img.left-button.swiper-button(src="@|picture-left-button.png|" o-hover="grow")
+        img.right-button.swiper-button(src="@|picture-right-button.png|" o-hover="grow")
       plug(_name="show" _src="https://owo.ink/public/66e11c0a5d97fc9526b240e5f8ee63e9.page")
       //- 底部三条图片
       ul.three-image-box.clear
@@ -190,7 +190,7 @@
     color: white;
   }
   a:hover {
-    text-decoration: underline;
+    color: white;
   }
 }
 .main-title {

@@ -7,8 +7,8 @@
         .text {{item.text}}
     .pagination.clear
     //- 控制按钮
-    img.previou(src="@|swiper-previou.png|" :click="previou")
-    img.next(src="@|swiper-next.png|" :click="next")
+    img.previou(src="@|swiper-previou.png|" :click="previou" o-hover="grow")
+    img.next(src="@|swiper-next.png|" :click="next" o-hover="grow")
     span.index
 </template>
 
