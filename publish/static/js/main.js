@@ -24,14 +24,14 @@ $(function () {
     if ($('.main-box .swiper-container').length > 0) {
       var slideListLength = $('.main-box .swiper-wrapper .swiper-slide').length;
       $('.main-box .index')[0].innerText = '1/' + slideListLength; // 轮播图展示区域swiper
-      var swiper = new Swiper($('.main-box .swiper-container')[0], {
+      var swiperMain = new Swiper($('.main-box .swiper-container')[0], {
         pagination: $('.main-box .pagination')[0],
         loop: true,
         autoplay: 3000,
         paginationClickable: true,
         onSlideChangeStart: function onSlideChangeStart(swiper) {
           var index = null;
-          if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex;else index = 1;
+          if (swiperMain.activeIndex <= slideListLength) index = swiperMain.activeIndex;else index = 1;
           $('.main-box .index')[0].innerText = index + '/' + slideListLength;
         }
       });
@@ -44,10 +44,10 @@ $(function () {
       }, 100);
       // 点击切换事件
       $(".main-box .previou").click(function() {
-        swiper.swipePrev();
+        swiperMain.swipePrev();
       })
       $(".main-box .next").click(function() {
-        swiper.swipeNext();
+        swiperMain.swipeNext();
       })
     }
   } catch (error) {}

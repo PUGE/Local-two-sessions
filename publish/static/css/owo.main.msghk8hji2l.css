@@ -91,7 +91,9 @@ li {
   color: white;
   line-height: 30px;
   padding: 0 10px;
-  width: 100%;
+  width: 470px;
+  height: 30px;
+  overflow: hidden;
   font-size: 14px;
 }
 
@@ -174,7 +176,7 @@ li {
 
 .plate-title-bar p {
   text-align: center;
-  line-height: 22px;
+  line-height: 24px;
   color: #797979;
 }
 .news-list li {
@@ -228,7 +230,6 @@ li {
 .title-bar {
   background-image: url('../resource/title-bar.png');
   background-repeat: no-repeat;
-  background-size: 100% auto;
   width: 100%;
   height: 77px;
   background-position: center;
