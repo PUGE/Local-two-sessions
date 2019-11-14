@@ -34,43 +34,72 @@
 
 <body>
   <!-- 页面区域 -->
-  <!-- 页面[home]-->
-  <div class="home owo" template="home">
+  <div class="home owo">
     <img class="main-image" src="./static/resource/bg.jpg">
     <div class="title-bar">
       <ul class="clear">
         <li>
-          <a href="#">要问区</a>
+          <a href="#yaowenqu">要闻区</a>
         </li>
         <li>
-          <a href="#">滚动新闻</a>
+          <a href="#gundongxinwen">滚动新闻</a>
         </li>
         <li>
-          <a href="#">视频报道</a>
+          <a href="#shipinbaodao">视频报道</a>
         </li>
         <li>
-          <a href="#">报道解读</a>
+          <a href="#jiedu">报道解读</a>
         </li>
         <li>
-          <a href="#">报道焦点</a>
+          <a href="#baodaojiaodian">报道焦点</a>
         </li>
         <li>
-          <a href="#">人物报道</a>
+          <a href="#renwubaodao">人物报道</a>
         </li>
         <li>
-          <a href="#">议案提案</a>
+          <a href="#yiantian">议案提案</a>
         </li>
         <li>
-          <a href="#">精彩图片</a>
+          <a href="#jingcaitupian">精彩图片</a>
+        </li>
+      </ul>
+    </div>
+    <!-- 漂浮的导航栏 -->
+    <div class="float-title-bar">
+      <ul class="clear">
+        <li>
+          <a href="#yaowenqu">要问区</a>
+        </li>
+        <li>
+          <a href="#gundongxinwen">滚动新闻</a>
+        </li>
+        <li>
+          <a href="#shipinbaodao">视频报道</a>
+        </li>
+        <li>
+          <a href="#jiedu">报道解读</a>
+        </li>
+        <li>
+          <a href="#baodaojiaodian">报道焦点</a>
+        </li>
+        <li>
+          <a href="#renwubaodao">人物报道</a>
+        </li>
+        <li>
+          <a href="#yiantian">议案提案</a>
+        </li>
+        <li>
+          <a href="#jingcaitupian">精彩图片</a>
         </li>
       </ul>
     </div>
     <div class="w1000">
+      <a name="yaowenqu"></a>
       <div class="main-title">
         <a href="#">黑龙江省第二十届人民代表大会1月31日第五次选举落幕</a>
       </div>
       <div class="main-box clear">
-        <div class="swiper-box left" template="swiperBox">
+        <div class="swiper-box left">
           <div class="swiper-container clear">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -79,7 +108,7 @@
               </div>
               <div class="swiper-slide">
                 <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg" width="490" height="330">
-                <div class="text">全省“法治进校园”巡讲团首站——晋中</div>
+                <div class="text">全省“法治进校园”巡讲团首站——晋中全省“法治进校园”巡讲团首站——晋中</div>
               </div>
               <div class="swiper-slide">
                 <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg" width="490" height="330">
@@ -87,8 +116,8 @@
               </div>
             </div>
             <div class="pagination clear"></div>
-            <img class="previou owo-hover-grow" src="./static/resource/swiper-previou.png" :click="previou">
-            <img class="next owo-hover-grow" src="./static/resource/swiper-next.png" :click="next">
+            <img class="previou owo-hover-grow" src="./static/resource/swiper-previou.png">
+            <img class="next owo-hover-grow" src="./static/resource/swiper-next.png">
             <span class="index"></span>
           </div>
         </div>
@@ -131,8 +160,125 @@
           <img src="./static/resource/icon-3.png">
         </div>
       </div>
-      <div class="calendar-box"></div>
-      <div class="rolling-news"></div>
+      <!-- 两会日历 -->
+      <div class="calendar-box">
+        <ul class="data-list clear">
+          <li>
+            <div class="day">2/3</div>
+            <div class="text">解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/4</div>
+            <div class="text">2解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/5</div>
+            <div class="text">3解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/6</div>
+            <div class="text">6解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/7</div>
+            <div class="text">7解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/8</div>
+            <div class="text">8解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/9</div>
+            <div class="text">9解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/10</div>
+            <div class="text">10解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+          </li>
+          <li>
+            <div class="day">2/11</div>
+            <div class="text"></div>
+          </li>
+          <li>
+            <div class="day">2/12</div>
+            <div class="text"></div>
+          </li>
+        </ul>
+        <!-- 文字内容 -->
+        <p class="text-box"></p>
+      </div>
+      <!-- 滚动新闻 -->
+      <a name="gundongxinwen"></a>
+      <div class="rolling-news">
+      <div class="title-mini">滚动新闻</div>
+        <ul class="news-list-edit">
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+          <li>
+            <a href="#">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</a>
+          </li>
+        </ul>
+        <div class="swiper-container-4">
+          <div class="swiper-wrapper">
+            <!-- js会自动生成 -->
+          </div>
+        </div>
+      </div>
       <div class="plate-title-bar">
         <h2>
           <span style="color: #bc1b21;">视频</span>
@@ -140,30 +286,61 @@
         </h2>
         <p>2020地方两会特别报道</p>
       </div>
+      <!-- 视频报道 -->
+      <a name="shipinbaodao"></a>
       <div class="video-box clear">
-        <div class="left fl"></div>
-        <div class="center fl"></div>
+        <div class="left fl">
+          <!-- 视频会自动插入 -->
+        </div>
         <div class="right fl">
-          <ul>
-            <li>
-              <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130948274118019863880.jpg">
-              <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
-            </li>
-            <li>
-              <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855248094482452988.jpg">
-              <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
-            </li>
-            <li>
-              <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855244937535482982.jpg">
-              <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
-            </li>
-          </ul>
+          <div class="swiper-container-3">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130948274118019863880.jpg">
+                <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
+                <div class="video">
+                  <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS84LzI2MzExNTBlLTM1Y2ItNDQ5OC1hOGJlLTZiMTc2YTNmMmQ5OC54bWw=/playerByOsmf.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer"></embed>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855248094482452988.jpg">
+                <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
+                <div class="video">
+                  <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS84LzI2MzExNTBlLTM1Y2ItNDQ5OC1hOGJlLTZiMTc2YTNmMmQ5OC54bWw=/playerByOsmf.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer"></embed>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855244937535482982.jpg">
+                <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
+                <div class="video">
+                  <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS84LzI2MzExNTBlLTM1Y2ItNDQ5OC1hOGJlLTZiMTc2YTNmMmQ5OC54bWw=/playerByOsmf.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer"></embed>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855244937535482982.jpg">
+                <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
+                <div class="video">
+                  <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS84LzI2MzExNTBlLTM1Y2ItNDQ5OC1hOGJlLTZiMTc2YTNmMmQ5OC54bWw=/playerByOsmf.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer"></embed>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911130855248094482452988.jpg">
+                <div class="info">解读2016政府工作报告释放哪些“十三五”发展信号</div>
+                <div class="video">
+                  <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS84LzI2MzExNTBlLTM1Y2ItNDQ5OC1hOGJlLTZiMTc2YTNmMmQ5OC54bWw=/playerByOsmf.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer"></embed>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
           <div class="control-bar clear">
             <div class="fl down"></div>
             <div class="fl up"></div>
           </div>
         </div>
       </div>
+      <!-- 解读 -->
+      <a name="jiedu"></a>
       <div class="jiedu">
         <div class="plate-title-bar">
           <h2>
@@ -173,7 +350,28 @@
           <p>2020地方两会特别报道</p>
         </div>
         <div class="unscramble clear">
-          <div class="left fl"></div>
+          <div class="swiper-box left fl">
+            <div class="swiper-container clear">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg" width="490" height="330">
+                  <div class="text">全省“法治进校园”巡讲团首站——晋中</div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg" width="490" height="330">
+                  <div class="text">全省“法治进校园”巡讲团首站——晋中全省“法治进校园”巡讲团首站——晋中</div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg" width="490" height="330">
+                  <div class="text">全省“法治进校园”巡讲团首站——晋中</div>
+                </div>
+              </div>
+              <div class="pagination clear"></div>
+              <img class="previou owo-hover-grow" src="./static/resource/swiper-previou.png">
+              <img class="next owo-hover-grow" src="./static/resource/swiper-next.png">
+              <span class="index"></span>
+            </div>
+          </div>
           <ul class="news-list right fl">
             <li>
               <a href="#">解读2020政府工作报告释放哪些“十三五读2016政展信号解解读2020政府工作报告释放哪些“十三五读2016政展信号解</a>
@@ -196,7 +394,9 @@
           </ul>
         </div>
       </div>
+      <!-- 新闻焦点 -->
       <div class="jiaodian">
+      <a name="baodaojiaodian"></a>
         <div class="plate-title-bar">
           <h2>
             <span style="color: #bc1b21;">报道</span>
@@ -205,8 +405,36 @@
           <p>2020地方两会特别报道</p>
         </div>
         <div class="focus-box">
-          <img class="left-button swiper-button owo-hover-grow" src="./static/resource/left-button.png">
-          <img class="right-button swiper-button owo-hover-grow" src="./static/resource/right-button.png">
+          <div class="swiper-container-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="swiper-slide-item">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg" width="490" height="330">
+                    <div class="text">全省“法治进校园”巡讲团首站——晋中</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="swiper-slide-item">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg" width="490" height="330">
+                    <div class="text">全省“法治进校园”巡讲团首站——晋中全省“法治进校园”巡讲团首站——晋中</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="swiper-slide-item">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg" width="490" height="330">
+                    <div class="text">全省“法治进校园”巡讲团首站——晋中</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <img class="focus-left-button left-button swiper-button owo-hover-grow" src="./static/resource/left-button.png">
+          <img class="focus-right-button right-button swiper-button owo-hover-grow" src="./static/resource/right-button.png">
         </div>
         <div class="show">
           <a target="_blank" href="#">
@@ -216,8 +444,11 @@
       </div>
     </div>
     <div class="smoke">
+      <!-- 新闻焦点 -->
+      
       <div class="w1000">
         <div class="renwubaodao">
+          <a name="renwubaodao"></a>
           <div class="plate-title-bar">
             <h2>
               <span style="color: #bc1b21;">人物</span>
@@ -226,14 +457,74 @@
             <p>2020地方两会特别报道</p>
           </div>
           <div class="people-box">
-            <img class="left-button swiper-button owo-hover-grow" src="./static/resource/people-left-button.png">
-            <img class="right-button swiper-button owo-hover-grow" src="./static/resource/people-right-button.png">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="li-box clear">
+                    <div class="left">
+                      <img src="./static/resource/people.jpg" width="486" height="567">
+                    </div>
+                    <div class="right">
+                      <h2>达美乐</h2>
+                      <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+                      <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="li-box clear">
+                    <div class="left">
+                      <img src="./static/resource/people.jpg" width="486" height="567">
+                    </div>
+                    <div class="right">
+                      <h2>达美乐</h2>
+                      <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+                      <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="li-box clear">
+                    <div class="left">
+                      <img src="./static/resource/people.jpg" width="486" height="567">
+                    </div>
+                    <div class="right">
+                      <h2>达美乐</h2>
+                      <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+                      <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="li-box clear">
+                    <div class="left">
+                      <img src="./static/resource/people.jpg" width="486" height="567">
+                    </div>
+                    <div class="right">
+                      <h2>达美乐</h2>
+                      <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+                      <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <img class="people-left-button left-button swiper-button owo-hover-grow" src="./static/resource/people-left-button.png">
+            <img class="people-right-button right-button swiper-button owo-hover-grow" src="./static/resource/people-right-button.png">
           </div>
         </div>
       </div>
     </div>
     <div class="w1000">
+      <!-- 议案提案 -->
       <div class="yiantian">
+        <a name="yiantian"></a>
         <div class="plate-title-bar">
           <h2>
             <span style="color: #bc1b21;">议案</span>
@@ -275,6 +566,7 @@
         </ul>
       </div>
       <div class="jingcaitupian">
+        <a name="jingcaitupian"></a>
         <div class="plate-title-bar">
           <h2>
             <span style="color: #bc1b21;">精彩</span>
@@ -283,8 +575,58 @@
           <p>2020地方两会特别报道</p>
         </div>
         <div class="picture-box">
-          <img class="left-button swiper-button owo-hover-grow" src="./static/resource/picture-left-button.png">
-          <img class="right-button swiper-button owo-hover-grow" src="./static/resource/picture-right-button.png">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="http://www.people.com.cn/NMediaFile/2019/1114/MAIN201911140852256002383097483.jpg">
+                <em>解读2016政府工作报告释放哪</em>
+              </a>
+            </li>
+          </ul>
+          <img class="pic-left-button left-button swiper-button owo-hover-grow" src="./static/resource/picture-left-button.png">
+          <img class="pic-left-button right-button swiper-button owo-hover-grow" src="./static/resource/picture-right-button.png">
         </div>
         <div class="show">
           <a target="_blank" href="#">
@@ -310,14 +652,24 @@
         </ul>
       </div>
     </div>
+    <!-- 漂浮的留言按钮 -->
+    <div class="float-message">
+      <div class="message-button top">
+        <a href="#">其他省份</a>
+      </div>
+      <div class="message-button bottom">
+        <a href="#">我要留言</a>
+      </div>
+    </div>
     <p class="mt30">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2019 by www.people.com.cn. all rights reserved</p>
   </div>
 
 
   <script src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript" charset="UTF-8"></script>
   <script src="http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="./static/js/main.js" type="text/javascript" charset="UTF-8"></script><!-- 框架script文件 -->
-  <script src="./static/js/owo.main.msghk8hji2l.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/jquery.easing.1.3.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/roundabout.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/main.js" type="text/javascript" charset="UTF-8"></script>
 </body>
 
 </html>

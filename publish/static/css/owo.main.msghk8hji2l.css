@@ -86,6 +86,7 @@ li {
 .swiper-box .swiper-wrapper .text {
   position: absolute;
   bottom: 5px;
+  background-color: black;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   line-height: 30px;
@@ -96,7 +97,7 @@ li {
 
 .swiper-box .swiper-container {
   width: 100%;
-  height: 330px;
+  height: 100%;
   margin: 0;
   overflow: hidden;
   position: relative;
@@ -236,14 +237,14 @@ li {
   margin-top: -38px;
 }
 
-.title-bar ul {
+.float-title-bar ul, .title-bar ul {
   width: 1000px;
   margin: 0 auto;
   height: 60px;
   position: relative;
 }
 
-.title-bar li {
+.float-title-bar li, .title-bar li {
   display: inline-block;
   line-height: 60px;
   font-size: 22px;
@@ -252,22 +253,35 @@ li {
   cursor: pointer;
 }
 
-.title-bar li:hover {
+.float-title-bar li:hover, .title-bar li:hover {
   font-weight: bold;
 }
 
-.title-bar a {
+.float-title-bar a, .title-bar a {
   color: white;
 }
 
-.title-bar a:hover {
+.float-title-bar a:hover, .title-bar a:hover {
   color: white;
+}
+
+.float-title-bar {
+  background-color: #c62b32;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  display: none;
+}
+
+.float-title-bar ul {
+  text-align: center;
 }
 
 .main-title {
   font-size: 36px;
-  height: 100px;
-  line-height: 100px;
+  height: 60px;
+  line-height: 60px;
   color: #bc1b21;
   font-weight: bold;
   font-family: "Microsoft YaHei";
@@ -321,7 +335,7 @@ li {
 
 .agenda-box .agenda {
   height: 66px;
-  width: 200px;
+  width: 224px;
   color: #222;
   padding: 0 10px;
   border: 1px solid #404040;
@@ -361,15 +375,101 @@ li {
 .calendar-box {
   width: 1000px;
   height: 166px;
+  position: relative;
   margin-top: 25px;
   background-image: url('../resource/calendar.png');
+}
+
+.calendar-box .time {
+  font-size: 22px;
+  color: #bc1b21;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  position: absolute;
+  left: 240px;
+  top: 40px;
+}
+
+.calendar-box .data-list .text {
+  display: none;
+}
+
+.calendar-box .data-list {
+  font-size: 22px;
+  color: #bc1b21;
+  width: 700px;
+  position: absolute;
+  left: 200px;
+  top: 31px;
+  line-height: 50px;
+  height: 50px;
+}
+
+.calendar-box .data-list li {
+  float: left;
+  width: 50px;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 6px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+
+.calendar-box .data-list .active {
+  background-color: #bc1b21;
+  border-radius: 25px;
+  color: white;
+}
+
+.calendar-box .data-list li .day:hover {
+  border: 2px solid #bc1b21;
+  border-radius: 25px;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 36px;
+}
+
+.calendar-box p {
+  position: absolute;
+  width: 96%;
+  top: 100px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222;
+  height: 48px;
+  overflow: hidden;
+}
+
+.calendar-box .no-text {
+  color: #dba2a4;
+  user-select: none;
+  pointer-events: none;
 }
 
 .rolling-news {
   width: 1000px;
   height: 148px;
   margin-top: 25px;
+  position: relative;
   background-image: url('../resource/rolling-news.jpg');
+}
+
+.rolling-news .title-mini {
+  width: 65px;
+  font-size: 26px;
+  color: white;
+  font-family: "Microsoft YaHei";
+  line-height: 33px;
+  letter-spacing: 6px;
+  text-align: center;
+  position: absolute;
+  left: 40px;
+  top: 39px;
 }
 
 .plate-title-bar {
@@ -385,33 +485,44 @@ li {
   width: 721px;
   height: 100%;
   background-size: 100% 100%;
-  background-image: url('http://www.people.com.cn/NMediaFile/2019/1113/MAIN201911131050544300484849198.jpg');
 }
 
-.video-box .center {
-  width: 70px;
+.video-box .left a, .video-box .left embed {
+  display: block;
+  width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 35px;
-  background-image: url('../resource/point.png');
 }
 
 .video-box .right {
-  width: 244px;
+  width: 279px;
   height: 100%;
 }
 
-.video-box .right ul {
+.video-box .right .video {
+  display: none;
+}
+
+.video-box .right .swiper-container-3 {
   height: 375px;
+  overflow: hidden;
 }
 
 .video-box .right li {
-  width: 100%;
-  height: 33.33%;
+  width: 244px !important;
+  padding-left: 35px;
+  height: 125px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
+}
+
+.video-box .is-active {
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-image: url('../resource/point.png');
+}
+.video-box .swiper-container-3 .is-active .info {
+  display: flex;
 }
 
 .video-box .right li img {
@@ -421,11 +532,11 @@ li {
 
 .video-box .right li .info {
   position: absolute;
-  left: 0;
+  left: 35px;
   top: 0;
   font-size: 20px;
   height: 100%;
-  width: 100%;
+  width: 244px;
   -webkit-box-align: center;
           align-items: center;
   text-align: center;
@@ -444,6 +555,8 @@ li {
 
 .video-box .right .control-bar {
   height: 30px;
+  width: 244px;
+  margin-left: 35px;
   background-color: #cd3a44;
 }
 
@@ -481,7 +594,6 @@ li {
 .focus-box {
   height: 365px;
   position: relative;
-  background-color: #ccc;
 }
 
 .focus-box .swiper-button {
@@ -507,7 +619,8 @@ li {
 .people-box {
   height: 380px;
   position: relative;
-  background-color: #ccc;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 .people-box .swiper-button {
@@ -516,14 +629,63 @@ li {
   bottom: 0;
   margin: auto;
   cursor: pointer;
+  z-index: 999;
 }
 
 .people-box .left-button {
-  left: 20%;
+  left: 10%;
 }
 
 .people-box .right-button {
-  right: 20%;
+  right: 10%;
+}
+
+.people-box .left {
+  width: 48%;
+  height: 100%;
+  float: left;
+  
+}
+
+.people-box .right {
+  float: left;
+  width: 290px;
+  height: 100%;
+  background-image: url('../resource/people-bg.jpg');
+}
+
+.people-box .right h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #222222;
+  line-height: 40px;
+  height: 40px;
+  margin: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.people-box .right h3 {
+  color: #222;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 20px;
+  height: 72px;
+  overflow: hidden;
+}
+
+.people-box .right p {
+  margin: 10px 20px;
+  height: 218px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.people-box .left img, .people-box a, .people-box .li-box {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .yiantian li,
@@ -549,7 +711,6 @@ li {
 .picture-box {
   height: 600px;
   position: relative;
-  background-color: #ccc;
 }
 
 .picture-box .swiper-button {
@@ -558,14 +719,15 @@ li {
   bottom: 0;
   margin: auto;
   cursor: pointer;
+  z-index: 999;
 }
 
 .picture-box .left-button {
-  left: 20%;
+  left: 5%;
 }
 
 .picture-box .right-button {
-  right: 20%;
+  right: 5%;
 }
 
 .three-image-box {
@@ -594,9 +756,178 @@ li {
 }
 
 .smoke {
+  padding-top: 1px;
   background-color: whitesmoke;
 }
 
 .mt30 {
   margin: 30px 0;
+}
+
+.swiper {
+  position: relative;
+  width: 1000px;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.roundabout-holder {
+  height: 100%;
+  margin:0 auto;
+}
+
+.roundabout-moveable-item{
+  height: 100%;
+  cursor: pointer;
+}
+
+.roundabout-moveable-item img{height:100%;width:100%;}
+
+.people-box li {
+  width: 560px;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+}
+
+.people-box .roundabout-moveable-item {
+  margin: auto;
+}
+
+.people-box .roundabout-moveable-item[roundabout-index="3"] {
+  right: 550px;
+}
+
+.people-box .roundabout-moveable-item[roundabout-index="1"] {
+  right: -520px;
+}
+/* .people-box .roundabout-in-focus {
+  transform: translate(0, 0);
+} */
+
+.picture-box a,  .picture-box li img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.picture-box li {
+  width: 1000px;
+  height: 600px;
+}
+
+.picture-box li em {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0 1%;
+  font-style: normal;
+  display: block;
+  width: 98%;
+  line-height: 25px;
+  display: none;
+}
+
+.picture-box .roundabout-in-focus em {
+  display: block;
+}
+
+.swiper-container-2 {
+  display: block;
+  width: 1040px;
+  margin-left: -20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.swiper-container-2 a, .swiper-container-2 img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.swiper-slide-item {
+  margin: 0 20px;
+  height: 100%;
+  position: relative;
+}
+.swiper-slide-item .text {
+  width: 94%;
+  position: absolute;
+  bottom: 0;
+  background-color: #efefef;
+  overflow: hidden;
+  line-height: 30px;
+  padding: 0 3%;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.rolling-news .news-list-edit {
+  display: none;
+}
+
+.swiper-container-4 {
+  position: absolute;
+  width: 800px;
+  height: 90px;
+  left: 168px;
+  top: 28px;
+  overflow: hidden;
+}
+
+.swiper-container-4 .swiper-slide li {
+  float: left;
+  width: 46%;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 0 2%;
+  color: white;
+}
+
+.swiper-container-4 .swiper-slide li a {
+  color: white;
+}
+
+.float-message {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 999;
+}
+
+.float-message .top {
+  background-image: url('../resource/other-button-1.png');
+  height: 47px;
+  line-height: 47px;
+  color: white;
+  text-align: center;
+  width: 90px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+}
+
+.float-message .bottom {
+  background-image: url('../resource/other-button-2.png');
+  height: 104px;
+  color: white;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  padding: 9px;
+  padding-right: 25px;
+  width: 71px;
+}
+.float-message .message-button {
+  background-repeat: no-repeat;
+}
+
+.float-message .message-button a {
+  color: white;
 }
