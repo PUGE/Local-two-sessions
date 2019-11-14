@@ -125,14 +125,13 @@ $(function () {
     if ($('.picture-box').length > 0) {
       $('.picture-box ul').roundabout({
         easing: 'easeOutInCirc',
-        duration: 600,
+        // duration: 600,
         // autoplay: true,
-        autoplayDuration: 3000,
-        autoplayPauseOnHover: true,
-        minScale: 0.6,
-        degrees: 10,
+        // autoplayDuration: 3000,
+        // autoplayPauseOnHover: true,
+        minScale: 0.2,
         period: 1,
-        minOpacity: 0.4,
+        minOpacity: 0.9,
         btnNext: ".pic-left-button",
         btnPrev: ".pic-right-button"
       });

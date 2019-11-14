@@ -362,7 +362,6 @@
 			});
 
 			methods.updateChildren.apply(self);
-
 			// start autoplay if necessary
 			if (data.autoplay) {
 				data.autoplayStartTimeout = setTimeout(function() {
@@ -437,11 +436,11 @@
 								inFocus = i;
 								$(this).addClass("roundabout-in-focus");
 							} else {
+								
 								// $(this).attr("roundabout-index", (i - inFocus))
 								$(this).removeClass("roundabout-in-focus");
 							}
 						});
-					
 					if (inFocus !== info.inFocus) {
 						// blur old child
 						if (data.triggerBlurEvents) {
@@ -459,7 +458,7 @@
 									.trigger("focus");
 						}
 					}
-
+					
 					self.trigger("childrenUpdated");
 				});
 		},
@@ -488,11 +487,12 @@
 			factors.adjustedScale = (info.scale.min + (info.scale.diff * factors.scale)).toFixed(4);
 			factors.width = (factors.adjustedScale * data.startWidth).toFixed(4);
 			factors.height = (factors.adjustedScale * data.startHeight).toFixed(4);
-
+			var left = ((factors.x * info.midStage.width + info.nudge.width) - factors.width / 2.0).toFixed(0)
+			// console.log(left)
       // update item
 			child
 				.css({
-					left: ((factors.x * info.midStage.width + info.nudge.width) - factors.width / 2.0).toFixed(0) + "px",
+					left: left + "px",
 					top: ((factors.y * info.midStage.height + info.nudge.height) - factors.height / 2.0).toFixed(0) + "px",
 					width: factors.width + "px",
 					height: factors.height + "px",
@@ -551,7 +551,6 @@
 					data.bearing = bearing;
 					self.trigger("bearingSet");
 					methods.updateChildren.apply(self);
-
 					// not animating? we're done here
 					diff = Math.abs(oldBearing - bearing);
 					if (!data.animating || diff > 180) {
@@ -603,6 +602,7 @@
 				.each(function() {
 					$(this).data("roundabout").tilt = tilt;
 					methods.updateChildren.apply($(this));
+					
 				});
 
 			// call callback if one was given
